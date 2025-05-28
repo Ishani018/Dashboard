@@ -14,28 +14,28 @@ Tab 2:
 
 **Dynamic Data Fetching via useEffect from:**  
 
-        - https://dummyjson.com/c/fce7-da87-4904-b310  
+- https://dummyjson.com/c/fce7-da87-4904-b310  
 
 **Tabs for Navigation:**
 
-        - tab1Data: Displays stats in reusable DataCards  
-        - tab2Data: Displays stats and a dynamically scaled GaugeChart  
+- tab1Data: Displays stats in reusable DataCards  
+- tab2Data: Displays stats and a dynamically scaled GaugeChart  
 
 **Sidebar:**
 
-        - Displays violations and activities using SidebarTabs  
+- Displays violations and activities using SidebarTabs  
 
 **Reusable Components:**
 
-        - DataCard: Displays value, label, and unit.   
-        - GaugeChart: Highcharts-based meter with a dynamic max value from API   data.  
+- DataCard: Displays value, label, and unit.   
+- GaugeChart: Highcharts-based meter with a dynamic max value from API   data.  
 
 **Robust UX:**
-        - Loading state handled with Ant Design’s Spin.  
-        - Error messages using message.error when API fails.  
+- Loading state handled with Ant Design’s Spin.  
+- Error messages using message.error when API fails.  
 
 **Styling:**
-        - Ant Design components with custom CSS overrides.  
+- Ant Design components with custom CSS overrides.  
 
 ## Folder Structure with summary of each file's basic function:
 
@@ -69,7 +69,7 @@ Dynamic Tabs: Extracts all API keys ending in Data (e.g., tab1Data, tab2Data) to
 Sidebar: Reads sidebarData and displays recent violations and activities
 
 GaugeChart:
-    - Renders only in tab2
-    - Dynamically adjusts its max value based on the highest incoming data point# Dashboard
+- Renders only in tab2
+- Dynamically adjusts its max value based on the highest incoming data point# Dashboard
 
 
