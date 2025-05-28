@@ -3,7 +3,10 @@ React Dynamic Dashboard
 
 Preview of the DashBoard:
 
-![Preview of the dashboard](image-1.png)
+Tab 1:
+![Preview of the dashboard](Dashboard1.png)
+Tab 2:
+![Preview of the dashboard](Dashboard.png)
 
 Features:
 
@@ -30,6 +33,9 @@ Robust UX:
 Styling:
         Ant Design components with custom CSS overrides
 
+Folder Structure with summary of each file's basic function:
+
+![Preview of the dashboard](FolderStructure.png)
 
 Tech Stack
     React (Functional Components + Hooks)
@@ -41,7 +47,7 @@ Tech Stack
 Installation & Setup:
 
 # Clone the repository
-git clone https://github.com/Ishani018/React-Dashboard.git
+git clone https://github.com/Ishani018/Dashboard.git
 
 
 # Install all dependencies
