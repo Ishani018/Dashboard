@@ -3,27 +3,27 @@ React Dynamic Dashboard
 
 Features:
 
-    Single Page Application built with React and Vite
+Single Page Application built with React and Vite
 
-    Dynamic Data Fetching via useEffect from: 
+Dynamic Data Fetching via useEffect from: 
         https://dummyjson.com/c/fce7-da87-4904-b310
 
-    Tabs for Navigation:
+Tabs for Navigation:
         tab1Data: Displays stats in reusable DataCards
         tab2Data: Displays stats and a dynamically scaled GaugeChart
 
-    Sidebar:
+Sidebar:
         Displays violations and activities using SidebarTabs
 
-    Reusable Components
+Reusable Components
         DataCard: Displays value, label, and unit
         GaugeChart: Highcharts-based meter with a dynamic max value from API data
 
-    Robust UX:
+Robust UX:
         Loading state handled with Ant Design’s Spin
         Error messages using message.error when API fails
 
-    Styling:
+Styling:
         Ant Design components with custom CSS overrides
 
 
@@ -38,7 +38,7 @@ Installation & Setup:
 
 # Clone the repository
 git clone https://github.com/Ishani018/React-Dashboard.git
-cd your-dashboard
+
 
 # Install all dependencies
 npm install
