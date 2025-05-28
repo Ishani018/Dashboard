@@ -1,14 +1,14 @@
 React Dynamic Dashboard
     A responsive and interactive single-page dashboard built using React, Ant Design, and Highcharts. It dynamically fetches and displays data through reusable UI components with a focus on clean layout, modularity, and reliable error/loading handling.
 
-Preview of the DashBoard:
+# Preview of the DashBoard:
 
 Tab 1:
 ![Preview of the dashboard](Dashboard1.png)
 Tab 2:
 ![Preview of the dashboard](Dashboard.png)
 
-Features:
+# Features:
 
 Single Page Application built with React and Vite
 
@@ -37,23 +37,23 @@ Folder Structure with summary of each file's basic function:
 
 ![Preview of the dashboard](FolderStructure.png)
 
-Tech Stack
+# Tech Stack
     React (Functional Components + Hooks)
     Vite (for fast development)
     Ant Design for UI layout and components
     Highcharts via highcharts-react-official
     Custom CSS for styling enhancements
 
-Installation & Setup:
+# Installation & Setup:
 
-# Clone the repository
+Clone the repository: 
 git clone https://github.com/Ishani018/Dashboard.git
 
 
-# Install all dependencies
+Install all dependencies:
 npm install
 
-# Start the development server
+Start the development server:
 npm run dev
 
 
