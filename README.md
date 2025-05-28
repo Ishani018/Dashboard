@@ -1,11 +1,17 @@
 # React Dynamic Dashboard
-A responsive and interactive single-page dashboard built using React, Ant Design, and Highcharts. It dynamically fetches and displays data through reusable UI components with a focus on clean layout, modularity, and reliable error/loading handling.
+- A responsive and interactive single-page dashboard built using React, Ant Design, and Highcharts. 
+
+- It dynamically fetches and displays data through reusable UI components with a focus on clean layout, modularity, and reliable error/loading handling.
 
 # Preview of the DashBoard:
 
 Tab 1:
+
 ![Preview of the dashboard](Dashboard1.png)
+
+
 Tab 2:
+
 ![Preview of the dashboard](Dashboard.png)
 
 # Features:
@@ -13,7 +19,6 @@ Tab 2:
 **Single Page Application built with React and Vite**
 
 **Dynamic Data Fetching via useEffect from:**  
-
 - https://dummyjson.com/c/fce7-da87-4904-b310  
 
 **Tabs for Navigation:**
@@ -50,25 +55,22 @@ Tab 2:
 
 # Installation & Setup:
 
-**Clone the repository:**
-git clone https://github.com/Ishani018/Dashboard.git
+- **Clone the repository:** git clone https://github.com/Ishani018/Dashboard.git
 
+- **Install all dependencies:** npm install
 
-**Install all dependencies:** npm install
-
-**Start the development server:**
-npm run dev
+- **Start the development server:**npm run dev
 
 
 ## How It Works:
 
-Data Fetching: Done in DashboardPage.jsx using useEffect on mount
+- Data Fetching: Done in DashboardPage.jsx using useEffect on mount
 
-Dynamic Tabs: Extracts all API keys ending in Data (e.g., tab1Data, tab2Data) to generate dynamic tabs
+- Dynamic Tabs: Extracts all API keys ending in Data (e.g., tab1Data, tab2Data) to generate dynamic tabs
 
-Sidebar: Reads sidebarData and displays recent violations and activities
+- Sidebar: Reads sidebarData and displays recent violations and activities
 
-GaugeChart:
+- GaugeChart:
 - Renders only in tab2
 - Dynamically adjusts its max value based on the highest incoming data point# Dashboard
 
