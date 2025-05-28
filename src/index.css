@@ -1,0 +1,54 @@
+.custom-tabs .ant-tabs-nav-list {
+  margin-left:50px;
+  margin-top: 20px;
+}
+
+
+.custom-tabs .ant-tabs-tab {
+  background-color: #32363a;
+  color: white;
+  font-weight: 500;
+  border-radius: 10px 10px 0 0;
+  padding: 8px 36px 10px;
+}
+
+.custom-tabs .ant-tabs-tab-active {
+  background-color: #ff9800 !important;
+}
+
+.custom-tabs .ant-tabs-tab-btn {
+  color: white; 
+}
+
+
+.sidebar-tab-style .ant-tabs-tab {
+  color: white;
+  font-weight: 500;
+}
+
+.sidebar-tab-style .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #ff9800 !important;
+  font-weight: 600;
+}
+
+
+.sidebar-tab-style .ant-list-item {
+  margin-bottom: 8px;
+  border-radius: 8px;
+  padding: 12px;
+
+}
+
+.sidebar-tab-style .ant-list-item:hover {
+  background-color: #222222; 
+}
+
+.sidebar-tab-style .ant-list-item .ant-list-item-meta .ant-list-item-meta-title {
+  color: white !important;
+  font-size: 13px;
+}
+
+.sidebar-tab-style .ant-list-item .ant-list-item-meta .ant-list-item-meta-description {
+  color: rgba(255, 255, 255, 0.574) !important;
+}
+
