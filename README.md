@@ -48,12 +48,12 @@ npm run dev
 
 
 How It Works:
-    Data Fetching: Done in DashboardPage.jsx using useEffect on mount
+Data Fetching: Done in DashboardPage.jsx using useEffect on mount
 
-    Dynamic Tabs: Extracts all API keys ending in Data (e.g., tab1Data, tab2Data) to generate dynamic tabs
+Dynamic Tabs: Extracts all API keys ending in Data (e.g., tab1Data, tab2Data) to generate dynamic tabs
 
-    Sidebar: Reads sidebarData and displays recent violations and activities
+Sidebar: Reads sidebarData and displays recent violations and activities
 
-    GaugeChart:
+GaugeChart:
         Renders only in tab2
         Dynamically adjusts its max value based on the highest incoming data point# Dashboard
