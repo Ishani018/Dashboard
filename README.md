@@ -1,6 +1,10 @@
 React Dynamic Dashboard
     A responsive and interactive single-page dashboard built using React, Ant Design, and Highcharts. It dynamically fetches and displays data through reusable UI components with a focus on clean layout, modularity, and reliable error/loading handling.
 
+Preview of the DashBoard:
+
+![Preview of the dashboard](image-1.png)
+
 Features:
 
 Single Page Application built with React and Vite
@@ -57,3 +61,5 @@ Sidebar: Reads sidebarData and displays recent violations and activities
 GaugeChart:
         Renders only in tab2
         Dynamically adjusts its max value based on the highest incoming data point# Dashboard
+
+
