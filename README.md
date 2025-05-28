@@ -58,7 +58,7 @@ Tab 2:
 
 - **Install all dependencies:** npm install
 
-- **Start the development server:**npm run dev
+- **Start the development server:** npm run dev
 
 
 ## How It Works:
@@ -70,7 +70,7 @@ Tab 2:
 - Sidebar: Reads sidebarData and displays recent violations and activities
 
 - GaugeChart:
-- Renders only in tab2
-- Dynamically adjusts its max value based on the highest incoming data point# Dashboard
+ - Renders only in tab2
+ - Dynamically adjusts its max value based on the highest incoming data point# Dashboard
 
 
