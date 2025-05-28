@@ -16,10 +16,8 @@ Tab 2:
 
 # Features:
 
-**Single Page Application built with React and Vite**
-
-**Dynamic Data Fetching via useEffect from:**  
-- https://dummyjson.com/c/fce7-da87-4904-b310  
+**Single Page Application built with React and Vite**  
+**Dynamic Data Fetching via useEffect from:** https://dummyjson.com/c/fce7-da87-4904-b310  
 
 **Tabs for Navigation:**
 
